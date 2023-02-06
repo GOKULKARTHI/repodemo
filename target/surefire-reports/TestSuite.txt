@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.766 s <<< FAILURE! - in TestSuite
+tests.RegisterTest.registerNewAccountByProvidingAllDetails  Time elapsed: 2.657 s  <<< FAILURE!
+java.lang.AssertionError: expected [ABC Your Account Has Been Created!] but found [Your Account Has Been Created!]
+	at tests.RegisterTest.registerNewAccountByProvidingAllDetails(RegisterTest.java:40)
+
